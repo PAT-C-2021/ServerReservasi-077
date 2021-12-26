@@ -17,7 +17,7 @@ namespace ServerReservasi
             {
                 hostObj = new ServiceHost(typeof(Service1));
                 hostObj.Open();
-                Console.WriteLine("Server is Ready!!!");
+                Console.WriteLine("Server Siap!!!");
                 Console.ReadLine();
                 hostObj.Close();
             }
